@@ -1,7 +1,6 @@
-# z_zip
- 
-demos:
-  public function ZIPManager()
+# z_zip  
+			
+		public function ZIPManager()
 		{
 			var $downZIP:zZIP = new zZIP();
 			$downZIP.addEventListener(zZipEvent.ZIP_ERROR,zipErrorHandler);
